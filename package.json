@@ -1,0 +1,25 @@
+{
+  "name": "@bioneos/artillery-engine-socketio-v2",
+  "version": "1.0.0",
+  "description": "This socket.io artillery engine uses version 2 of the socket.io client, to be used with running load tests against version 2 socket.io servers.",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io-client": "^2.5.0"
+  },
+  "peerDependencies": {
+    "artillery": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bioneos/artillery-engine-socketio-v2"
+  },
+  "keywords": [
+    "artillery",
+    "socketio"
+  ],
+  "author": "Bio::Neos",
+  "license": "ISC"
+}
