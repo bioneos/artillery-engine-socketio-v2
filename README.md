@@ -5,7 +5,7 @@ This socket.io artillery engine uses version 2 of the socket.io client, to be us
 Add the engine to your project:
 
 ```sh
-npm install @bioneos/artillery-engine-socketio-v2 --save
+npm install artillery-engine-socketio-v2@https://github.com/bioneos/artillery-engine-socketio-v2 --save
 ```
 
 In test `.yml` file specify `socketio-v2` as an engine to be used in the test:
