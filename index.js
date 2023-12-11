@@ -7,8 +7,7 @@
 const async = require('async');
 const _ = require('lodash');
 
-// ensure we're loading v2 of the socket.io client
-const io = require('./node_modules/socket.io-client');
+const io = require('socket.io-client');
 const wildcardPatch = require('socketio-wildcard')(io.Manager);
 
 const deepEqual = require('fast-deep-equal');
