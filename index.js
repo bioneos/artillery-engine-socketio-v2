@@ -11,7 +11,7 @@ const io = require('socket.io-client');
 const wildcardPatch = require('socketio-wildcard')(io.Manager);
 
 const deepEqual = require('fast-deep-equal');
-const debug = require('debug')('sockv2');
+const debug = require('debug')('socketio-v2');
 const engineUtil = require('@artilleryio/int-commons').engine_util;
 const EngineHttp = require('@artilleryio/int-core').engine_http;
 const template = engineUtil.template;
